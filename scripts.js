@@ -9,6 +9,12 @@ document.addEventListener('DOMContentLoaded', function(){
         tamanhoDaFonte = tamanhoDaFonte + 0.1
         document.body.style.fontSize = `${tamanhoDaFonte}rem`
     })
+  
+    const botaoacessibilidade = document.getElementById('botao-acessibilidade')
+    const opcoesacessibilidade = document.getElementById('botao-acessibilidade')
 
-
+    botaoacessibilidade.addEventListener('click' , function()){
+      botaoacessibilidade.classList.toggle(rotacao-botao)
+      botaoacessibilidade.classList.toggle(r)
+    }
 })
